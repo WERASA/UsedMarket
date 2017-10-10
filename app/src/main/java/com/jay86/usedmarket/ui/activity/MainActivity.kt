@@ -1,9 +1,9 @@
-package com.jay86.usedmarket
+package com.jay86.usedmarket.ui.activity
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.jay86.usedmarket.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
